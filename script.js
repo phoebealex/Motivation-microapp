@@ -1,3 +1,6 @@
+
+
+
 function motivQuote() {
     var happy = ["You do you!", "Just keep keeping on", "you are doing great, you got this"];
     var sad = ["Tomorrow is a new day", "Clouds always pass", "Emotions are not destinations"];
