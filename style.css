@@ -5,7 +5,9 @@ body {
 
 img {
     width: 230px;
-    top:
+    left: 200px;
+    top: 30px;
+    left: 30px;
 }
 
 .dropdown:hover .emotion {
