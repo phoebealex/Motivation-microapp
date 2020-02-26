@@ -10,6 +10,6 @@ img {
     left: 30px;
 }
 
-.dropdown:hover .drop {
+.dropdown:hover .emotion {
     display: block;
 }
