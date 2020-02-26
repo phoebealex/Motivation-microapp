@@ -2,6 +2,12 @@ body {
     background-color: #F9E79F;
 }
 
+
+img {
+    width: 230px;
+    top:
+}
+
 .dropdown:hover .drop {
     display: block;
 }
