@@ -1,5 +1,7 @@
 let button = document.getElemenntById("roll")
-roll.addEventListener
+roll.addEventListener("click", () => {
+    motivQuote(document.getElementById("dropdown").value)
+})
 
 function motivQuote() {
     var happy = ["You do you!", "Just keep keeping on", "you are doing great, you got this"];
