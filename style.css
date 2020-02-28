@@ -18,3 +18,9 @@ body {
 .dropdown:hover .emotion {
     display: block;
 }
+
+table,
+td {
+    border: 4px solid;
+    border-color: black
+}
