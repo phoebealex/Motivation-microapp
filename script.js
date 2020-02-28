@@ -33,7 +33,4 @@ function motivQuote(feeling) {
         sQuote.innerHTML = angry[x];
         body.appendChild(aQuote);
     }
-
-
 }
-
