@@ -19,7 +19,7 @@ function motivQuote(feeling) {
         var sQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = sad[x];
-        body.appendChild(sQuote);
+        p.appendChild(sQuote);
        }
     else if(feeling == h){
         var hQuote = document.getElementById("words");
@@ -31,6 +31,6 @@ function motivQuote(feeling) {
         var aQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = angry[x];
-        body.appendChild(aQuote);
+        p.appendChild(aQuote);
     }
 }
