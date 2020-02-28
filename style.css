@@ -20,9 +20,27 @@ body {
 }
 
 #words {
+    margin-top: 500px;
     margin: auto;
     text-align: center;
-    width: 230px;
-    height: 230px;
+    width: 30%;
+    height: 30%;
     background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+#roll {
+    margin-left: 50%;
+}
+
+#emotion {
+
+    margin-left: 50%;
+}
+
+#dropdown {
+    margin-left: 50%;
 }
