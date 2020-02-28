@@ -16,19 +16,19 @@ function motivQuote(feeling) {
     var a = document.getElementById("emotion").options.namedItem("3");
 
     if(feeling == s){
-        var sQuote = document.createElement("p");
+        var sQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = sad[x];
         body.appendChild(sQuote);
        }
     else if(feeling == h){
-        var hQuote = document.createElement("p");
+        var hQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = happy[x];
         body.appendChild(hQuote);
     }
     else if(feeling == a){
-        var aQuote = document.createElement("p");
+        var aQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = angry[x];
         body.appendChild(aQuote);
