@@ -15,19 +15,19 @@ function motivQuote(feeling) {
     var h = document.getElementById("emotion").options.namedItem("1");
     var a = document.getElementById("emotion").options.namedItem("3");
 
-    if(feeling = s){
+    if(feeling == s){
         var sQuote = document.createElement("p");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = sad[x];
         body.appendChild(sQuote);
        }
-    else if(feeling = h){
+    else if(feeling == h){
         var hQuote = document.createElement("p");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = happy[x];
         body.appendChild(hQuote);
     }
-    else if(feeling = a){
+    else if(feeling == a){
         var aQuote = document.createElement("p");
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = angry[x];
