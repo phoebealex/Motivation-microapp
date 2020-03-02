@@ -7,7 +7,7 @@ function motivQuote(feeling) {
 
     console.log("feeling", feeling)
 
-    var happy = ["You do you!", "Just keep keeping on", "you are doing great, You got this"];
+    var happy = ["You do you!", "Just keep keeping on", "You are doing great, you got this"];
     var sad = ["Tomorrow is a new day", "Clouds always pass", "Emotions are not destinations"];
     var angry = ["Just breath", "Visualize your paradise", "Clear your mind, revel in the emptiness"];
 
