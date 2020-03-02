@@ -1,5 +1,5 @@
 let button = document.getElementById("roll")
-roll.addEventListener("click", () => {
+button.addEventListener("click", () => {
     motivQuote(document.getElementById("dropdown").value)
 })
 
@@ -21,13 +21,13 @@ function motivQuote(feeling) {
         sQuote.innerHTML = sad[x];
         p.appendChild(sQuote);
        }
-    else if(feeling == h){
+    if(feeling == h){
         var hQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         hQuote.innerHTML = happy[x];
         p.appendChild(hQuote);
     }
-    else if(feeling == a){
+   if(feeling == a){
         var aQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         aQuote.innerHTML = angry[x];
