@@ -6,9 +6,6 @@ body {
     width: 230px;
 }
 
-#dropdown:hover #emotion {
-    display: block;
-}
 
 #words {
     margin: auto;

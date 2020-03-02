@@ -21,14 +21,16 @@ function motivQuote(feeling) {
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = sad[x];
         p.appendChild(sQuote);
-       }
-    if(feeling == h){
+    }
+    if (feeling == h) {} else if (feeling == h) {
         var hQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         hQuote.innerHTML = happy[x];
         p.appendChild(hQuote);
-       }
-   if(feeling == a){
+    }
+    if (feeling == a) {
+
+    } else if (feeling == a) {
         var aQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         aQuote.innerHTML = angry[x];
