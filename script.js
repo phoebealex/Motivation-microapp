@@ -21,12 +21,22 @@ function motivQuote(feeling) {
         var x = Math.floor(Math.random() * 3);
         sQuote.innerHTML = sad[x];
         p.appendChild(sQuote);
+<<<<<<< HEAD
+       }
+    if(feeling == h){
+=======
     } else if (feeling == h) {
+>>>>>>> master/master
         var hQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         hQuote.innerHTML = happy[x];
         p.appendChild(hQuote);
+<<<<<<< HEAD
+    }
+   if(feeling == a){
+=======
     } else if (feeling == a) {
+>>>>>>> master/master
         var aQuote = document.getElementById("words");
         var x = Math.floor(Math.random() * 3);
         aQuote.innerHTML = angry[x];
