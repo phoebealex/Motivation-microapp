@@ -1,5 +1,5 @@
 let button = document.getElementById("roll")
-roll.addEventListener("click", () => {
+button.addEventListener("click", () => {
     motivQuote(document.getElementById("dropdown").value)
 })
 
