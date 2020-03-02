@@ -6,12 +6,11 @@ body {
     width: 230px;
 }
 
-.dropdown:hover .emotion {
+#dropdown:hover #emotion {
     display: block;
 }
 
 #words {
-    margin-top: 500px;
     margin: auto;
     text-align: center;
     width: 30%;
@@ -29,7 +28,7 @@ h1 {
 
 #emotion {
 
-    margin-left: 50%;
+    margin-left: 5%;
 }
 
 #dropdown {
