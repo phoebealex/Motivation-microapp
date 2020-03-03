@@ -2,17 +2,14 @@ body {
     background-color: #FDD7E4;
 }
 
-.left_img {
-    width: 230px;
-}
-
-
 #words {
     margin: auto;
     text-align: center;
     width: 30%;
     height: 30%;
+    margin-top: 5%;
     background-color: aqua;
+    font-size: 50px;
 }
 
 h1 {
@@ -20,14 +17,11 @@ h1 {
 }
 
 #roll {
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
-#emotion {
+#dropdown_container {
+    margin-left: 42%;
+    margin-top: 2%;
 
-    margin-left: 0%;
-}
-
-#dropdown {
-    margin-left: 50%;
 }
